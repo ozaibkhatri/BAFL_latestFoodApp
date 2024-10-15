@@ -1,0 +1,264 @@
+{
+  "name": "BALF APP Automation",
+  "projectId": "8c094971-1023-4c72-90cd-559fbdbac3e0",
+  "description": "Mobile Testing Project",
+  "main": "",
+  "dependencies": {
+    "UiPath.MobileAutomation.Activities": "[24.10.0]",
+    "UiPath.System.Activities": "[24.10.3]",
+    "UiPath.Testing.Activities": "[24.10.0]",
+    "UiPath.UIAutomation.Activities": "[24.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6f9b35c8-697e-4ef0-80ac-0004bad815d6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Valid Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4dfb2558-7b9c-4fb4-a910-fae4685ff39e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Invalid Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f210f16e-d0f4-4d80-a318-4a2b7fc9ff82",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Invalid username Valid password.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8021d4b3-46b6-4f2b-ad8b-3cdbc788afe6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Valid username Invalid password.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8f5749dc-bdad-4ea3-94bd-b26685f85e10",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the Real time order page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4394406e-7202-4952-8558-063771fd7f84",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the order history page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3854e036-808c-436b-aeac-67783edd7867",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the deals page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "35fe304f-02d4-4ce0-be0a-5d793ba07df0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the Food management page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ea613c96-135e-4f42-b85a-84cf43736515",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the Booking management page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ca6af0e8-3641-40e6-9bad-25d9ffd193ed",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the setting page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a10336bd-f6cd-4a07-b4e1-6f4f5b2bf991",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the cash popup page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5ea86dfe-4497-4576-a5ff-8ea8ece60c91",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the table page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "045782a8-3327-4b37-8228-d78c034aa62f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the prepaid card.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b886f7a7-768d-488a-a8cd-564a6ccb04bb",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the prepaid card popup page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "23398e5f-cfd9-4674-85f0-5cee201067bb",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Navigate to the payment page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "906249a7-49eb-4404-b8ea-46ece86b3cbe",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Add deals.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "27513bed-0d50-41c4-9ecf-8e2658d51513",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Add Table.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b41bfa56-d3b1-47d0-92bd-5ac8442c60d7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Add new item in food management.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0e9c947b-6819-4db7-a6ae-787e1ebcd704",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Restaurant App\\Edit Restaurant Address and Phone no.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3916a6b4-b0bb-48e4-8793-ca58842af582",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\After Login navigate to the Customer Order History page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ae9911bc-19a2-4751-b36a-de88cdde9b37",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\After Login navigate to the prepaid card page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1907e960-8e81-4da9-b402-fb7eeb4dd447",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\After Login navigate to the Refer a Friend.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d5216fb3-b578-405f-87c6-a576e33471bb",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\Client Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1ca9b5c8-245d-4f43-8027-e68a9b907e0a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\Invalid Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "77203efd-ece9-4cb8-970d-fdb622d0fcf1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\Invalid username and Valid password.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ffb10411-2504-4a61-8e86-2dfa87839ae9",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\Navigate to the Customer Setting_page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "908f2eff-4cd2-4b9e-8f72-8d686c54fd22",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\Navigate to the Voucher and Offer page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6aa760e0-8695-445f-b6f5-d1d1a6f6b9e4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\Signup.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9e6f7163-3652-42aa-b434-3711da548204",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\Valid username Invalid password.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9c2b4e0d-c9f0-41c0-bcea-8c987ce571f9",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\Edit Customer Profile.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
