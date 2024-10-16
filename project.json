@@ -7,7 +7,7 @@
     "UiPath.MobileAutomation.Activities": "[24.10.0]",
     "UiPath.System.Activities": "[24.10.3]",
     "UiPath.Testing.Activities": "[24.10.0]",
-    "UiPath.UIAutomation.Activities": "[24.10.3]"
+    "UiPath.UIAutomation.Activities": "[24.11.1-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -163,39 +163,11 @@
         "fileName": "BALF Restaurant App\\Add Table.xaml"
       },
       {
-        "editingStatus": "Publishable",
-        "testCaseId": "b41bfa56-d3b1-47d0-92bd-5ac8442c60d7",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "BALF Restaurant App\\Add new item in food management.xaml"
-      },
-      {
         "editingStatus": "InProgress",
         "testCaseId": "0e9c947b-6819-4db7-a6ae-787e1ebcd704",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "BALF Restaurant App\\Edit Restaurant Address and Phone no.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "3916a6b4-b0bb-48e4-8793-ca58842af582",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "BALF Customer App\\After Login navigate to the Customer Order History page.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "ae9911bc-19a2-4751-b36a-de88cdde9b37",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "BALF Customer App\\After Login navigate to the prepaid card page.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "1907e960-8e81-4da9-b402-fb7eeb4dd447",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "BALF Customer App\\After Login navigate to the Refer a Friend.xaml"
       },
       {
         "editingStatus": "Publishable",
@@ -220,20 +192,6 @@
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "ffb10411-2504-4a61-8e86-2dfa87839ae9",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "BALF Customer App\\Navigate to the Customer Setting_page.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "908f2eff-4cd2-4b9e-8f72-8d686c54fd22",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "BALF Customer App\\Navigate to the Voucher and Offer page.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
         "testCaseId": "6aa760e0-8695-445f-b6f5-d1d1a6f6b9e4",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
@@ -252,6 +210,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "BALF Customer App\\Edit Customer Profile.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "83e067cf-958a-43a2-abe4-ff4366e5bd81",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BALF Customer App\\Navigate to the all pages.xaml"
       }
     ],
     "saveToCloud": false
